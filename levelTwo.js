@@ -6,7 +6,7 @@ answerButton.onclick = function(){
         alert("Congratulations! You have successfully completed the first base! Thanks to you, we were able to protect all of the snowmen! That Winter Grinch is no match for you, agent! The flag is nQVxDV8j.");
         let flagPrompt = prompt("What is the flag name?");
         if ((flagPrompt == "nQVxDV8j")){
-            window.location.href='https://www.google.com/';
+            window.location.href='https://lainey-moffett.github.io/Saving-Winter-/bLevelOne.html';
 
         } else {
             alert("Sorry, that is incorrect.  Please try again.");
