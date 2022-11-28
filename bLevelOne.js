@@ -17,7 +17,7 @@ let round4 = function(){
         alert("Congratulations, you got all four questions right!  The flag name is mu3vb7Fw");
         let flagName = prompt("What is the flag name?");
         if (flagName == "mu3vb7Fw"){
-            window.location.href='https://www.google.com/';
+            window.location.href='https://lainey-moffett.github.io/Saving-Winter-/bLevelTwo.html';
         } else {
             while (flagName != "mu3vb7Fw"){
                 alert("Sorry, that is incorrect.  Please try again.");
@@ -35,7 +35,7 @@ let round4 = function(){
             alert("Congratulations, you got all four questions right!  The flag name is flagThree");
             let flagName = prompt("What is the flag name?");
             if (flagName == "flagThree"){
-                window.location.href='https://www.google.com/';
+                window.location.href='https://lainey-moffett.github.io/Saving-Winter-/bLevelTwo.html';
             } else {
                 while (flagName != "flagThree"){
                     alert("Sorry, that is incorrect.  Please try again.");
