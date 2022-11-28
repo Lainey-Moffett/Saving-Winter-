@@ -13,19 +13,15 @@ body, html {
   
   }
   .imgOne {
-    background-image: url("/Homepage/pexels-lisa-fotios-730256\ \(1\).jpg");
+    background-image: url("pexels-lisa-fotios-730256\ \(1\).jpg");
     min-height: 100%;
   }
   
   .imgTwo {
-    background-image: url("/Homepage/josh-hild-_TuI8tZHlk4-unsplash\ \(1\).jpg");
+    background-image: url("josh-hild-_TuI8tZHlk4-unsplash\ \(1\).jpg");
     min-height: 400px;
   }
   
-  /* .imgThree {
-    background-image: url("/roberto-nickson-5PQn41LFsQk-unsplash.jpg");
-    min-height: 400px;
-  } */
   
   .caption {
     position: absolute;
