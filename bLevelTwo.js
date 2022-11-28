@@ -32,7 +32,7 @@ let round4 = function(){
             let answer4 = prompt(Q4);
             if (answer4 == "2") break;
         }
-            alert("Congratulations, you got all four questions right!  The flag name is flagThree");
+            alert("Congratulations, you got all four questions right!  The flag name is KBYVD65A");
             let flagName = prompt("What is the flag name?");
             if (flagName == "KBYVD65A"){
                 window.location.href='https://lainey-moffett.github.io/Saving-Winter-/indexOne.html';
