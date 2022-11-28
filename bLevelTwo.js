@@ -17,7 +17,7 @@ let round4 = function(){
         alert("Congratulations, you got all four questions right!  The flag name is KBYVD65A");
         let flagName = prompt("What is the flag name?");
         if (flagName == "KBYVD65A"){
-            window.location.href='https://www.google.com/';
+            window.location.href='https://lainey-moffett.github.io/Saving-Winter-/indexOne.html';
         } else {
             while (flagName != "KBYVD65A"){
                 alert("Sorry, that is incorrect.  Please try again.");
@@ -35,7 +35,7 @@ let round4 = function(){
             alert("Congratulations, you got all four questions right!  The flag name is flagThree");
             let flagName = prompt("What is the flag name?");
             if (flagName == "KBYVD65A"){
-                window.location.href='https://www.google.com/';
+                window.location.href='https://lainey-moffett.github.io/Saving-Winter-/indexOne.html';
             } else {
                 while (flagName != "KBYVD65A"){
                     alert("Sorry, that is incorrect.  Please try again.");
