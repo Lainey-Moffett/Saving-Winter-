@@ -1,0 +1,31 @@
+body{
+    background-color: #223b54;
+    background-size: cover;
+  }
+  
+  .c1{
+    display: inline-block;
+  }
+  
+  .type h1{
+      color: white;
+      font-size: 30px;
+      padding-left: 50px;
+      overflow: hidden;
+      border-right: .15em solid #19b3d1;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 1.5s steps(30, end) forwards;
+  }
+  
+  .message p {
+    padding-left: 100px;
+    color: white;
+    padding-right: 100px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

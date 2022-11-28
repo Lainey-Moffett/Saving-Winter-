@@ -1,0 +1,75 @@
+body{
+    background-color: #223b54;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .navbar{
+    background-color: #1d3348;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0px 0px 20px #111e2a;
+  }
+  #homepage{
+    color: #19b3d1; 
+    font-size: 25px; 
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #homepage:hover{
+    text-decoration: underline;
+  }
+
+  .c1{
+    display: inline-block;
+  }
+  
+  .type h1{
+      color: white;
+      font-size: 30px;
+      padding-left: 50px;
+      overflow: hidden;
+      border-right: .15em solid #19b3d1;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 1.5s steps(30, end) forwards;
+  }
+  
+  .message p {
+    padding-left: 100px;
+    color: white;
+    padding-right: 100px;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .code p{
+    padding-left: 100px;
+    color: white;
+    padding-right: 100px;
+  }
+
+  .formatButton{
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #20c6e8;
+    border: 2px solid #223b54;;
+    border-radius: 5px;
+  }
+  .formatButton:hover{
+    background-color: #19b3d1;
+    border: 2px solid darkcyan;
+  }
